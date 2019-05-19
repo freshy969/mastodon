@@ -3,6 +3,26 @@ Changelog
 
 All notable changes to this project will be documented in this file.
 
+## [2.8.3] - 2019-05-19
+### Added
+
+- Add `og:image:alt` OpenGraph tag (#10779)
+- Add clickable area below avatar in statuses in web UI (#10766)
+- Add crossed-out eye icon on account gallery in web UI (#10715)
+- Add media description tooltip to thumbnails in web UI (#10713)
+
+### Changed
+
+- Change "mark as sensitive" button into a checkbox for clarity (#10748)
+
+### Fixed
+
+- Fix bug allowing users to publicly boost their private statuses (#10775, #10783)
+- Fix performance in formatter by a little (#10765)
+- Fix some colors in the light theme (#10754)
+- Fix some colors of the high contrast theme (#10711)
+- Fix ambivalent active state of poll refresh button in web UI (#10720)
+
 ## [2.8.2] - 2019-05-05
 ### Added
 
